@@ -48,11 +48,11 @@ import { Modo } from '../.nuxt/components';
 
 
 useHead({
-    title: 'My Portafolio',
+    title: 'Robert Mejia',
     meta: [
         {
             name: 'description',
-            content: 'Portafolio de Rob Mejia'
+            content: 'Portafolio Personal de Robert Mejia, Desarrollador, programador y diseniador Web y Apss Full Stack'
         }
     ],
     link: [
@@ -90,7 +90,7 @@ html, div.header-top{
     position: absolute;
     margin:0px;
     padding: 0px;
-    background-image: url(img/bg-1.png);
+    background-image: url(/assets/img/rob.png);
     background-size: cover;
     background-position: center;
     z-index: 1;
