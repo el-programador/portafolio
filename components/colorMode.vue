@@ -82,8 +82,8 @@ html.contrast {
 }
 @media (width <= 800px) {
   p.estado{
-  position: absolute;
-    bottom: 50%;
+  position: fixed;
+  bottom: 30%;
 }   
 }
 </style>

@@ -77,6 +77,7 @@ import component from '../.nuxt/types/vue-shim';
    @media (width <= 800px) {
   .social{
     top: 0%;
+    width: 40px;
     }
   }
 

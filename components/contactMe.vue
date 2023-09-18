@@ -63,13 +63,18 @@ const enviar = () => {
 
 <style scoped>
     section {
+
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
          /* background: linear-gradient(to bottom, #080808, #e4eff7); */
     }
-
+    @media (width <= 500px) {
+        section {
+        position: fixed;
+    }
+}
     .box{
         position: relative;
     }
@@ -144,7 +149,18 @@ const enviar = () => {
     border-right: 1px solid rgba(255,255, 255,0.2);
     border-bottom: 1px solid rgba(255, 255,255,0.2);
 }
-
+@media (width <= 500px) {
+    .container{
+   
+    width: 90%;
+    box-shadow: none;
+    border: none;
+    border-right: none;
+    border-bottom: none;
+    margin-left: 25px;
+    
+}
+}
 .form{
     position: relative;
     width: 100%;

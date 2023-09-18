@@ -1,4 +1,5 @@
 <template>
+    <div class="tecnologi">
     <section class="box2">
        <div class="box2">
             <h2> </h2>
@@ -22,6 +23,7 @@
             <span class="b3" style="--i:8;" ><img class="bx3" src="~/assets/img/wordpress.svg" alt="Wordpress"></span>
         </div> 
     </section>
+</div>
 </template>
 
 <script setup lang="ts">
@@ -139,6 +141,5 @@ div.box3 span.b3 img.bx3 {
     height: 70%;
     object-fit: cover;
 }
-
 
 </style>

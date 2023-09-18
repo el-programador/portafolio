@@ -60,7 +60,13 @@
     @media (width <= 500px) {
         .loader span{
         font-size: 20px;
-        letter-spacing: 0.2cm; 
+        letter-spacing: 0.2cm;
+        animation-play-state: running; 
+    }
+  }
+  @media (width <= 500px) {
+        .loader:hover span {
+        animation-play-state: paused; 
     }
   }
   @media (width >= 500px) and (width <= 800px) {

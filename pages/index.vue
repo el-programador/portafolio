@@ -87,7 +87,9 @@ useHead({
 }
 
 html, div.header-top{
-    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
     margin:0px;
     padding: 0px;
     background-image: url(/assets/img/rob.png);
