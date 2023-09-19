@@ -106,8 +106,7 @@ span:hover i{
 
 /* section 3 */
 div.box3{
-    margin-left: -110px;
-    
+    margin-left: -110px;  
     position: relative;
     width: 100px;
     height: 100px;

@@ -6,14 +6,14 @@
         <section class="box1">
         <div class="box">
             <h2 class="text">Last Projects </h2>
-            <span style="--i:1;" ><NuxtLink to="http://iluseo.com" target="_blank"><img src="~/assets/img/iluseo.png"><div class="card-text"><i>Mi pagina web con mis servicios y ofertas <p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
+            <span style="--i:1;" ><NuxtLink to="http://iluseo.com" target="_blank"><img src="~/assets/img/iluseo.png" title="Mi Imagen"><div class="card-text"><i>Mi pagina web con mis servicios y ofertas <p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
             <span style="--i:2;" ><NuxtLink to="http://espatris.com" target="_blank"><img src="~/assets/img/espatris.png"><div class="card-text"><i>Blog especializado life-style <p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
             <span style="--i:3;" ><NuxtLink to="http://fisbanda.com" target="_blank"><img src="~/assets/img/fisbanda.png"><div class="card-text"><i>Página creada para un cliente <p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
             <span style="--i:4;" ><NuxtLink to="https://karczma-zakopane.com" target="_blank"><img src="~/assets/img/karczma.png"><div class="card-text"><i>Página creada para una clienta <p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
             <span style="--i:5;" ><NuxtLink to="https://iluseo-films.web.app" target="_blank"><img src="~/assets/img/app-films.png"><div class="card-text"><i>APP. De peliculas <p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
             <span style="--i:6;" ><NuxtLink to="https://iluseo.com/blog?pagina=1" target="_blank"><img src="~/assets/img/paja-web.png"><div class="card-text"><i>Un Blog personalizado para una clienta <p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
             <span style="--i:7;" ><NuxtLink to="https://iluseo-pokemon.netlify.app" target="_blank"><img src="~/assets/img/pokemon.png"><div class="card-text"><i>APP. Demuestra cuánto sabes sobre Pokemons<p class="visitar"> VISITAR -></p></i></div></NuxtLink></span>
-            <span style="--i:8;" ><NuxtLink to="https://iluseo-indecision.netlify.app" target="_blank"><img src="~/assets/img/si-no.png"><div class="card-text"><i>App. Preguntale Lo que quieras <p class="visitar">VISITAR -></p></i></div></NuxtLink></span>
+            <span style="--i:8;" ><NuxtLink to="https://iluseo-indecision.netlify.app" target="_blank"><img src="~/assets/img/si-no.png" title="Mi Imagen"><div class="card-text"><i>App. Preguntale Lo que quieras <p class="visitar">VISITAR -></p></i></div></NuxtLink></span>
        
         </div>      
     </section>
@@ -70,9 +70,9 @@ section{
 }
 @media (width <= 500px) {
     .box{
-   
     width: 130px;
     height: 130px;
+    animation: animate 40s linear infinite;; 
 }
 }
 

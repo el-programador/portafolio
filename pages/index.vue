@@ -5,7 +5,7 @@ import { Modo } from '../.nuxt/components';
     <div>
       <div id="home" class="header-top" >
         <div class="canvas_go">
-            <div id="particles-js"></div>
+            <div id="particles-js" class="bg-small"></div>
             <div class="count-particles">
                 <span class="js-count-particles"></span>
             </div>

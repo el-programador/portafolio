@@ -1,4 +1,4 @@
-import component from '../.nuxt/types/vue-shim';
+
 <template>
     <div>
         <nav class="social">

@@ -157,8 +157,8 @@ const enviar = () => {
     border: none;
     border-right: none;
     border-bottom: none;
-    margin-left: 25px;
-    
+    margin-left: 15px;
+    padding-right: 15px;
 }
 }
 .form{
@@ -169,6 +169,13 @@ const enviar = () => {
     border-radius: 10px;
     background: linear-gradient(120deg, black, transparent);
     /* background: rgba(176, 176, 176, 0.3); */
+}
+@media (width <= 500px) {
+       .form {
+        padding: 5px;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
 }
 .form h2
 {

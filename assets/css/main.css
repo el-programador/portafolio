@@ -35,7 +35,19 @@ h1 {
     height: 100%;
     background: rgba(0, 0, 0, 0.7); 
 }
-
+@media (width <= 500px) {
+    #particles-js {
+       display: none;
+}
+}
+@media (width <= 500px) {
+    .canvas_go {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); 
+}
+}
 .text-start-center {
     text-align: center;
     position: relative;
