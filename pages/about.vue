@@ -5,7 +5,7 @@
     
                 <div class="div-text">
                     <div class="xs-modal-header">
-							<h2 class="person-title white">Mi nombre es: Robert Mejia</h2>
+							<h2 class="person-title white">Hi 👋 soy: Robert Mejia</h2>
 							<span class="perosn-designation">Programador, diseñador  y Creador  FULL-STACK</span>
 					</div>
 						<!-- .xs-modal-header END -->
@@ -20,16 +20,18 @@
                             BASE DE DATOS como: MySql, MongoDb, Supabase, Firebase.</p>
                         <p class="text-p">	 uso de Node js, y framenworks como: Angular, Vue, typeScript, Laravel. </p>
                         <p class="text-p">	Desarrollo de aplicaciones para Android e IOS con IONIC y FLUTER.</p>
-                            <p class="text-p">	Además del trabajo a diario con HTML, CSS, Wordpress, Bootstrap, Tailwind, y Jquery </p>
-                            <p class="text-p">	Acopañadas de las mejores prácticas en programación para beneficio de todo aquel que necesite mis servicios como profesional.</p>
+                            <p class="text-p">	Además del trabajo a diario con HTML, CSS, Jquery, Bootstrap, Tailwind, y  Wordpress. </p>
+                            
 					</div>
                 
                 </div>
                 <br><br>
                 <div class="div-img">
-                     <BoxTecnologi />
-                    
+                     <BoxTecnologi />   
                 </div>
+            </div>
+            <div class="div-img-small">
+                <ImgsTecnologi />
             </div>
     
 
@@ -61,7 +63,17 @@
 }
 @media (width <= 800px) {
     .mitextanimated {
-    margin-top: 50px;
+    margin-top: 40px;
+}
+}
+@media (width <= 500px) {
+    .texwebapp {
+    margin-top: 20px;
+}
+}
+@media (width <= 500px) {
+    span.perosn-designation {
+    margin-top: 0 !important;
 }
 }
 .container {
@@ -72,8 +84,7 @@
    
 }   
 p { 
-   font-size: 20px;
-  
+   font-size: 20px; 
    font-family: 'Poiret One';
 }
 .div-text{
@@ -85,10 +96,9 @@ p {
     margin: 50px;
 }
  
-
-      /* media querys */
-      @media (width <= 800px) {
-        .container {
+ /* media querys */
+@media (width <= 800px) {
+    .container {
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -116,10 +126,21 @@ p {
         .div-img {
             width: 90%;
             margin: 0px 10px 10px  10px;
-               
+            display: none;   
     }
 }
 
+@media (width >= 800px) {
+        .div-img-small {          
+            display: none;   
+    }
+}
+
+@media (width <= 500px) {
+        .div-img-small {          
+            margin-top: -50px; 
+    }
+}
 
 
 </style>

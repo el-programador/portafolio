@@ -12,6 +12,7 @@
             <span class="b2" style="--i:7;" ><img class="bx2" src="~/assets/img/flutter.svg" alt="Flutter"></span>
             <span class="b2" style="--i:8;" ><img class="bx2" src="~/assets/img/nodejs.svg" alt="NodeJs"></span>
         </div> 
+        
         <div class="box3">        
             <span class="b3" style="--i:1;" ><img class="bx3" src="~/assets/img/tailwindcss.svg" alt="Tailwind Css"></span>
             <span class="b3" style="--i:2;" ><img class="bx3" src="~/assets/img/laravel.svg" alt="Laravel"></span>
